@@ -1,11 +1,11 @@
 window.addEventListener('DOMContentLoaded', function () {
   document.querySelector('#exec').addEventListener('click', function () {
-    const val = document.querySelector('#input').value;
+    const html = `我が輩は猫である。`;
+    document.querySelector('#output').innerHTML = html;
+  });
 
-    let num = Number.parseInt(val);
-    num = num * 1.1;
-
-    const html = `<div class="item">税込み <b>${num}</b> 円</div>`;
+  document.querySelector('#exec2').addEventListener('click', function () {
+    const html = `私は猫です。`;
     document.querySelector('#output').innerHTML = html;
   });
 });
