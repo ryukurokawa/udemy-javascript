@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+    <title>国勢調査表示</title>
+  </head>
+  <body>
+    <h1>国勢調査表示</h1>
+    <div>
+      <button id="sortAsc">人口 (総数)を昇順でソート</button>
+      <button id="sortDesc">人口 (総数)を降順でソート</button>
+    </div>
+    <div class="exp">※「人口増減数」「人口増減％」は5年間の値</div>
+    <div id="preview">
+      <table>
+        <thead>
+          <tr>
+            <th>都道府県名</th>
+            <th>都道府県・市区町村名</th>
+            <th>人口 (総数)</th>
+            <th>人口 (男性)</th>
+            <th>人口 (女性)</th>
+            <th>人口増減数</th>
+            <th>人口増減％</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+body { text-align: center; }
+h1 { margin: 0; }
+
+/* Font Size */
+textarea, button {
+    font-size: 2em;
+}
+
+/* Input Textarea */
+textarea {
+    width: 100%;
+    max-width: 800px;
+    height: 8em;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin: 0.2em 0;
+}
+
+/* Button */
+#exec {
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin: 0.2em 0;
+}
+
+/* Preview */
+#preview table {
+    margin: 1em auto;
+}
+#preview table td {
+    border-bottom: solid 1px #ccc;
+    padding: 0.3em 1em;
+}
