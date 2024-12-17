@@ -1,0 +1,45 @@
+body { text-align: center; }
+h1 { margin: 0; }
+
+/* Wrap */
+
+/* Preview */
+#preview {
+    overflow: auto;
+    height: 40em;
+}
+#preview table {
+    margin: 0 auto;
+    border-spacing: 0;
+}
+#preview table td {
+    border-bottom: solid 1px #ccc;
+    padding: 0.3em 1em;
+}
+#preview table th {
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+    padding: 0 0.5em;
+}
+
+.sort {
+    cursor: pointer;
+}
+
+/* Explain */
+.exp {
+    font-size: 80%;
+    margin: 1em 0;
+}
+
+
+/* Filter */
+#keyword,
+#filter,
+#reset {
+    height: 2em;
+    box-sizing: border-box;
+}
